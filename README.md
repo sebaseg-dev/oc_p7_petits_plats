@@ -51,6 +51,12 @@ This project provided a strong introduction to **algorithm analysis and optimiza
 
 ## 🏗 Project structure
 
+### Repo branches
+
+- `main`: final project codebase, integrating Array.protoype.filter() method
+- `filter-method`: developing searching algorithm using Array.prototype.filter() method
+- `for-each-loop`: developing searching algorithm using Array.prototype.forEach() method
+
 ### Files
 
 - `index.html` → Application entry point (home page)
