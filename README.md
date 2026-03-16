@@ -45,7 +45,7 @@ This project provided a strong introduction to **algorithm analysis and optimiza
 |-----------------------------------------------------------|
 | ![Home page desktop](./screenshots/Homepage_1440x900.png) | 
 
-🔗 [Live preview](https://sedomu.github.io/oc_p7_petits_plats/)
+🔗 [Live preview](https://sebaseg-dev.github.io/oc_p7_petits_plats/)
 
 ---
 
