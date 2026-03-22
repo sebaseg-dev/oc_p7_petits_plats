@@ -2,4 +2,4 @@
 nixPkgs = ['sass']
 
 [phases.build]
-cmds = ['sass scss/main.scss style.css --style compressed']
+cmds = ['sass scss/style.scss style.css --style compressed']
