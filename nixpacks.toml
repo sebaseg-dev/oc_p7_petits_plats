@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ['sass']
+nixPkgs = ['sass', 'python3']
 
 [phases.build]
 cmds = ['sass scss/style.scss style.css --style compressed']
