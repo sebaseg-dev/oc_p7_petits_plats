@@ -1,8 +1,8 @@
 [phases.setup]
-nixPkgs = ['sass', 'python3']
+nixPkgs = ['sass', 'nginx']
 
 [phases.build]
 cmds = ['sass scss/style.scss style.css --style compressed']
 
 [start]
-cmd = 'python3 -m http.server 80'
+cmd = 'nginx -g "daemon off;" -c $PWD/nginx.conf'
