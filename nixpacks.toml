@@ -1,8 +1,5 @@
 [phases.setup]
-nixPkgs = ['sass', 'nginx']
+nixPkgs = ['sass']
 
 [phases.build]
 cmds = ['sass scss/style.scss style.css --style compressed']
-
-[start]
-cmd = 'nginx -g "daemon off;" -c $PWD/nginx.conf'
